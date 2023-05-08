@@ -21,7 +21,6 @@ fn main() {
 fn parse_xml() -> Result<Response, Error> {
     let arch_news_url = String::from("https://archlinux.org/feeds/news/");
     let res = reqwest::blocking::get(arch_news_url);
-    return res;
 }
 
 
